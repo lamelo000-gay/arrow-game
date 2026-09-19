@@ -67,10 +67,14 @@ arrow-game/
 ├── tests.py                # 自动化测试（对应作业测试用例 T01~T06）
 ├── tools/
 │   └── make_screenshots.py # 离屏渲染截图与通关演示 GIF 生成脚本
+├── docs/
+│   └── game-flow.html      # 游戏流程与代码架构图
 ├── screenshots/            # 游戏截图与演示 GIF
 ├── requirements.txt
 └── README.md
 ```
+
+游戏状态流程与代码架构：[游戏流程与架构图](docs/game-flow.html)
 
 ## 运行测试
 
