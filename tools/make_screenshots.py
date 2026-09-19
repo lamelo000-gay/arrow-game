@@ -116,7 +116,7 @@ def main():
             app.update(1 / FPS)
             app.draw()
             snap()
-    for _ in range(30):
+    for _ in range(90):
         app.update(1 / FPS)
         app.draw()
         snap()
