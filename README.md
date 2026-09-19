@@ -23,6 +23,10 @@
 
 ## 安装和运行方法
 
+**最简单的方式（Windows）：直接双击项目里的 `启动游戏.bat`**，脚本会自动定位可用的 Python 并补齐依赖，然后弹出游戏窗口。
+
+命令行方式：
+
 ```bash
 # 1. 克隆或下载本项目
 git clone <仓库地址>
@@ -43,6 +47,12 @@ pip install -r requirements.txt
 python main.py
 ```
 
+> **Windows 提示**：如果命令行执行 `python main.py` 后没有任何反应，通常是 `python` 命令指向了系统自带的空壳别名（`WindowsApps` 下的 0 字节文件），并非真实 Python。此时请直接双击 `启动游戏.bat`，或在 PowerShell 中用已安装 Python 的完整路径运行，例如：
+>
+> ```powershell
+> & "C:\Users\<用户名>\AppData\Local\Doubao\User Data\sandbox_runtime\bases\<版本目录>\python\python.exe" main.py
+> ```
+>
 > 若使用 Python 3.13 及以上版本，请安装 `pygame-ce`（requirements.txt 已指定）；若使用 Python ≤ 3.12 且更习惯官方包，也可 `pip install pygame` 后运行。
 
 ## 游戏操作说明
